@@ -10,7 +10,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, MultiLabelBinarizer
 
-from .config import (
+from config import (
     MIN_SYMPTOM_FRACTION,
     MODEL_PATH,
     RANDOM_STATE,
