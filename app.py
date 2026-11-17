@@ -4,9 +4,9 @@ Run with:  streamlit run app.py
 """
 import streamlit as st
 
-from src import model as model_lib
-from src.config import MODEL_PATH, TOP_K
-from src.data_utils import load_disease_symptoms, pretty
+import model as model_lib
+from config import MODEL_PATH, TOP_K
+from data_utils import load_disease_symptoms, pretty
 
 st.set_page_config(page_title="Disease Prediction", page_icon="🩺", layout="centered")
 
