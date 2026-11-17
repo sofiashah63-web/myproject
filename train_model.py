@@ -2,9 +2,9 @@
 
 Usage:  python train_model.py
 """
-from src.config import MODEL_PATH
-from src.data_utils import load_disease_symptoms
-from src.model import save, train
+from config import MODEL_PATH
+from data_utils import load_disease_symptoms
+from model import save, train
 
 
 def main() -> None:
