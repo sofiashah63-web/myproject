@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import pandas as pd
 
-from .config import DATA_PATH
+from config import DATA_PATH
 
 
 def _clean_symptom_list(raw: str) -> list[str]:
